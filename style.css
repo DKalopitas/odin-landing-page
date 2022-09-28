@@ -140,4 +140,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+}
+
+.footer ul {
+    list-style-type: none;
+}
+
+.footer a {
+    text-decoration: none;
 }
