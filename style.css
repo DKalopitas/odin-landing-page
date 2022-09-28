@@ -45,7 +45,7 @@ body {
 }
 
 .quote {
-    background-color: #E5E7EB;
+    background-image: linear-gradient(to bottom right, lightpink, #E5E7EB);
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
@@ -62,7 +62,7 @@ body {
 }
 
 .pop-up {
-    background-color: #3882F6;
+    background-image: linear-gradient(to bottom right, #3882F6,  lightpink);
     font-size: 20px;
     margin: 100px 20%;
     padding: 20px 60px;
@@ -133,6 +133,7 @@ body {
 }
 
 .footer {
+    color: #E5E7EB;
     display: flex;
     justify-content: center;
     align-items: center;
