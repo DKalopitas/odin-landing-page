@@ -19,6 +19,18 @@ body {
     background-color: #1F2937;
 }
 
+.header a:visited {
+    color: #E5E7EB;
+}
+
+.footer a:link {
+    color: lightpink;
+}
+
+.footer a:visited {
+    color: rgb(96, 69, 116);
+}
+
 .header {
     font-size: 18px;
     color: #E5E7EB;
@@ -33,6 +45,9 @@ body {
 .header .logo {
     font-size: 24px;
     color: #F9FAF8;
+    border-radius: 30px;
+    width: 3%;
+    height: auto;
 }
 
 .header button {
@@ -80,6 +95,7 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: 0 50px;
+    margin-top: 10px;
 }
 
 .header-links ul {
